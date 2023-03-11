@@ -1,0 +1,12 @@
+.homeMainContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 32px;
+
+    p {
+        font-size: 32px;
+        color: #ffff;
+    }
+}

@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: #141D2F;
+    background-image: url('./assets/img/twiggy.jpg');
+    background-size: cover;
+    margin: 0;
+    color: #141D2F;
+}
+
+.display-flex {
+  display: flex !important;
+}
+
+.h-100vh {
+  height: 100vh !important;
+}
+
+.w-50 {
+  width: 50%;
+  object-fit: cover;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.top0-left0 {
+  top: 0px;
+  left: 0px;
+}
+
+.opacity-80 {
+  opacity: 80%;
+}
