@@ -1,0 +1,19 @@
+@import './../../assets/fonts/fonts.scss';
+
+.backgroundImage {
+    position: absolute;
+    z-index: 0;
+    top: 100px;
+    left: 0px;
+    display: flex;
+    padding: 32px;
+    border: none;
+    opacity: 0.5;
+}
+
+.rezepteContainer {
+    h1 {
+        font-family: 'ClimateCrisis-Regular' !important;
+        color: #006dd7;
+    }
+}
